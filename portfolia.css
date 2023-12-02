@@ -3,12 +3,9 @@ html {
 }
 
 body {
-    font-family: 'Barlow', sans-serif;
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-family: 'Mulish', sans-serif;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
-
 * {
     margin: 0;
     padding: 0;
@@ -106,12 +103,27 @@ nav {
     color: white;
     margin-top: 80px;
     margin-right: 5%;
+
 }
+.spin{
+    margin-top: -410px;
+    height: 400px;
+    border-radius: 50%;
+    border-top: 10px solid #3498db;
+    animation: spin 2s linear infinite;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
 
 .rightSection img {
     height: 400px;
     border-radius: 50%;
+
 }
+
+
 
 .firstsection {
     display: flex;
