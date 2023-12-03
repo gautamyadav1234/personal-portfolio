@@ -48,7 +48,45 @@ nav {
         color: white;
     }
 }
+#tittle{
+    animation: tittle 4s ease   ;
 
+}
+@keyframes tittle{
+0%{
+    position: relative;
+    right:0px;
+    top: 0px;
+}
+25%{
+   position: relative;
+   right: 100px;
+   top: 0px;
+
+
+}
+50%{
+    position: relative;
+    right:100px;
+    top: -11px;
+    
+    
+}
+75%{
+    position: relative;
+    top: -11px;
+    right: 0px;
+}
+100%{
+    position: relative;
+    right: 0px;
+    top: 0px;  
+}
+}
+.sctittle{
+    position: relative;
+    right: -9px;
+}
 nav ul {
     color: white;
     font-size: 15px;
